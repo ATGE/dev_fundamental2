@@ -1,7 +1,7 @@
 import json
 from flask import request, jsonify
-from truck_control.content_manager import ContentManager
-from truck_control.client import Client
+from truck_delivery_pamy.content_manager import ContentManager
+from truck_delivery_pamy.client import Client
 
 CLIENT_TYPE = "client"
 

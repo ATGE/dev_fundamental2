@@ -10,7 +10,7 @@ def hello():
 
 
 from flask import Flask
-from truck_control.content_manager import ContentManager
+from truck_delivery_pamy.content_manager import ContentManager
 from api.views import client_api
 
 
