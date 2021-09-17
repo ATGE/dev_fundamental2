@@ -1,7 +1,6 @@
 import pytest
 from truck_delivery_pamy.db_connector import DBConnector
 
-
 def test_save():
     id_test = "123"
     object_to_save = {"123": {"a": "a"}}
